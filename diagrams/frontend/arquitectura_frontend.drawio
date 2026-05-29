@@ -1,0 +1,247 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="DsKJb6KJPJ9NjRX2yilj" name="Page-1">
+    <mxGraphModel dx="2175" dy="1228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="layer_routing" parent="1" style="swimlane;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;" value="Enrutamento" vertex="1">
+          <mxGeometry height="100" width="1760" x="160" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="r_app" parent="layer_routing" style="rounded=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=12;" value="App.jsx" vertex="1">
+          <mxGeometry height="40" width="120" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r_protected" parent="layer_routing" style="rounded=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=12;" value="ProtectedRoute" vertex="1">
+          <mxGeometry height="40" width="140" x="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" edge="1" parent="1" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;strokeColor=#555555;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="260" as="sourcePoint" />
+            <mxPoint x="1040" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="layer_layout" parent="1" style="swimlane;startSize=40;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;" value="Layout e navegación" vertex="1">
+          <mxGeometry height="100" width="1760" x="160" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="l_applayout" parent="layer_layout" style="rounded=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=12;" value="AppLayout" vertex="1">
+          <mxGeometry height="40" width="120" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l_sidebar" parent="layer_layout" style="rounded=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=12;" value="Sidebar" vertex="1">
+          <mxGeometry height="40" width="100" x="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l_bottomnav" parent="layer_layout" style="rounded=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=12;" value="BottomNav" vertex="1">
+          <mxGeometry height="40" width="120" x="280" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l_mobileheader" parent="layer_layout" style="rounded=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=12;" value="MobileHeader" vertex="1">
+          <mxGeometry height="40" width="130" x="420" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow2" edge="1" parent="1" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;strokeColor=#555555;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="390" as="sourcePoint" />
+            <mxPoint x="1040" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="layer_pages" parent="1" style="swimlane;startSize=40;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;" value="Páxinas (src/pages)" vertex="1">
+          <mxGeometry height="100" width="1760" x="160" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="p_login" parent="layer_pages" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="LoginPage" vertex="1">
+          <mxGeometry height="40" width="120" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p_register" parent="layer_pages" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="RegisterPage" vertex="1">
+          <mxGeometry height="40" width="120" x="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p_verificar" parent="layer_pages" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="VerificarPage" vertex="1">
+          <mxGeometry height="40" width="120" x="300" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p_principal" parent="layer_pages" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="MapaPrincipalPage" vertex="1">
+          <mxGeometry height="40" width="150" x="440" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p_list" parent="layer_pages" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="MapaListPage" vertex="1">
+          <mxGeometry height="40" width="120" x="610" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p_crear" parent="layer_pages" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="MapaCrearPage" vertex="1">
+          <mxGeometry height="40" width="130" x="750" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p_detalle" parent="layer_pages" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="MapaDetallePage" vertex="1">
+          <mxGeometry height="40" width="140" x="900" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p_editar" parent="layer_pages" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="MapaEditarPage" vertex="1">
+          <mxGeometry height="40" width="130" x="1060" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p_convites" parent="layer_pages" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="ConvitesPage" vertex="1">
+          <mxGeometry height="40" width="120" x="1210" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GChwmnqYmxXAnjT2so1E-1" parent="layer_pages" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="PerfilPage" vertex="1">
+          <mxGeometry height="40" width="110" x="1350" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GChwmnqYmxXAnjT2so1E-2" parent="layer_pages" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="ConfiguracionPage" vertex="1">
+          <mxGeometry height="40" width="150" x="1480" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow3" edge="1" parent="1" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;strokeColor=#555555;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="520" as="sourcePoint" />
+            <mxPoint x="1040" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="layer_components" parent="1" style="swimlane;startSize=40;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" value="Compoñentes reutilizables (src/components)" vertex="1">
+          <mxGeometry height="100" width="1760" x="160" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="c_mapviewer" parent="layer_components" style="rounded=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=12;" value="MapViewer" vertex="1">
+          <mxGeometry height="40" width="120" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c_mapsearch" parent="layer_components" style="rounded=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=12;" value="MapSearchBar" vertex="1">
+          <mxGeometry height="40" width="130" x="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c_mapacard" parent="layer_components" style="rounded=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=12;" value="MapaCard" vertex="1">
+          <mxGeometry height="40" width="110" x="310" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c_visualizar" parent="layer_components" style="rounded=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=12;" value="VisualizarMapasPanel" vertex="1">
+          <mxGeometry height="40" width="170" x="440" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c_categoria" parent="layer_components" style="rounded=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=12;" value="CategoriaPanel" vertex="1">
+          <mxGeometry height="40" width="130" x="630" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c_membro" parent="layer_components" style="rounded=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=12;" value="MembroPanel" vertex="1">
+          <mxGeometry height="40" width="120" x="780" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c_convite" parent="layer_components" style="rounded=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=12;" value="ConvitePanel" vertex="1">
+          <mxGeometry height="40" width="120" x="920" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c_historial" parent="layer_components" style="rounded=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=12;" value="HistorialPanel" vertex="1">
+          <mxGeometry height="40" width="120" x="1060" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GChwmnqYmxXAnjT2so1E-5" parent="layer_components" style="rounded=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=12;" value="Notificacions" vertex="1">
+          <mxGeometry height="40" width="120" x="1200" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GChwmnqYmxXAnjT2so1E-6" parent="layer_components" style="rounded=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=12;" value="ConfirmDialog" vertex="1">
+          <mxGeometry height="40" width="130" x="1340" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GChwmnqYmxXAnjT2so1E-7" parent="layer_components" style="rounded=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=12;" value="FormModal" vertex="1">
+          <mxGeometry height="40" width="110" x="1490" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GChwmnqYmxXAnjT2so1E-8" parent="layer_components" style="rounded=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=12;" value="FormInput" vertex="1">
+          <mxGeometry height="40" width="110" x="1620" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow4" edge="1" parent="1" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;strokeColor=#555555;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="650" as="sourcePoint" />
+            <mxPoint x="1040" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="layer_services" parent="1" style="swimlane;startSize=40;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;" value="Servizos HTTP (src/services)" vertex="1">
+          <mxGeometry height="100" width="1760" x="160" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="sv_axios" parent="layer_services" style="rounded=1;fillColor=#ffe6cc;strokeColor=#d6b656;fontSize=12;fontStyle=2;" value="axiosInstance" vertex="1">
+          <mxGeometry height="40" width="130" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sv_auth" parent="layer_services" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="authApi" vertex="1">
+          <mxGeometry height="40" width="100" x="170" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sv_mapa" parent="layer_services" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="mapaApi" vertex="1">
+          <mxGeometry height="40" width="100" x="290" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sv_marcador" parent="layer_services" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="marcadorApi" vertex="1">
+          <mxGeometry height="40" width="110" x="410" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sv_categoria" parent="layer_services" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="categoriaApi" vertex="1">
+          <mxGeometry height="40" width="110" x="540" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sv_convite" parent="layer_services" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="conviteApi" vertex="1">
+          <mxGeometry height="40" width="100" x="670" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sv_membro" parent="layer_services" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="mapaMembroApi" vertex="1">
+          <mxGeometry height="40" width="130" x="787" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sv_historial" parent="layer_services" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="historialApi" vertex="1">
+          <mxGeometry height="40" width="110" x="940" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sv_gardado" parent="layer_services" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="mapaGardadoApi" vertex="1">
+          <mxGeometry height="40" width="130" x="1070" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sv_perfil" parent="layer_services" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="perfilApi" vertex="1">
+          <mxGeometry height="40" width="100" x="1220" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="layer_state" parent="1" style="swimlane;startSize=40;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=13;" value="Estado global (src/store)" vertex="1">
+          <mxGeometry height="100" width="870" x="160" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="st_auth" parent="layer_state" style="rounded=1;fillColor=#ffffff;strokeColor=#b85450;fontSize=12;" value="AuthContext" vertex="1">
+          <mxGeometry height="40" width="130" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="st_sidebar" parent="layer_state" style="rounded=1;fillColor=#ffffff;strokeColor=#b85450;fontSize=12;" value="useSidebarStore" vertex="1">
+          <mxGeometry height="40" width="150" x="170" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="st_idioma" parent="layer_state" style="rounded=1;fillColor=#ffffff;strokeColor=#b85450;fontSize=12;" value="useIdiomaStore" vertex="1">
+          <mxGeometry height="40" width="140" x="340" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="st_notif" parent="layer_state" style="rounded=1;fillColor=#ffffff;strokeColor=#b85450;fontSize=12;" value="useNotificacionStore" vertex="1">
+          <mxGeometry height="40" width="170" x="500" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="st_mapavisual" parent="layer_state" style="rounded=1;fillColor=#ffffff;strokeColor=#b85450;fontSize=12;" value="useMapaVisualStore" vertex="1">
+          <mxGeometry height="40" width="170" x="690" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="layer_i18n" parent="1" style="swimlane;startSize=40;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;" value="Internacionalización (i18n)" vertex="1">
+          <mxGeometry height="100" width="420" x="1050" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="i18n_config" parent="layer_i18n" style="rounded=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=12;" value="i18n.js" vertex="1">
+          <mxGeometry height="40" width="100" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="layer_ext" parent="1" style="swimlane;startSize=40;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=13;" value="Servizos externos" vertex="1">
+          <mxGeometry height="100" width="870" x="160" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_leaflet" parent="layer_ext" style="rounded=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;" value="Leaflet + OpenStreetMap" vertex="1">
+          <mxGeometry height="40" width="190" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_nominatim" parent="layer_ext" style="rounded=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;" value="Nominatim (xeocod.)" vertex="1">
+          <mxGeometry height="40" width="180" x="230" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_backend" parent="layer_ext" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" value="Backend API REST" vertex="1">
+          <mxGeometry height="40" width="150" x="430" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="layer_hooks" parent="1" style="swimlane;startSize=40;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=13;" value="Hooks (src/hooks)" vertex="1">
+          <mxGeometry height="100" width="870" x="1050" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="h_auth" parent="layer_hooks" style="rounded=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;" value="useAuth" vertex="1">
+          <mxGeometry height="40" width="110" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h_pwd" parent="layer_hooks" style="rounded=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;" value="usePasswordStrength" vertex="1">
+          <mxGeometry height="40" width="180" x="150" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nota_axios" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;fontStyle=2;" value="* axiosInstance: instancia Axios con interceptores JWT (inxecta token, refresco silencioso, redirección en 401)" vertex="1">
+          <mxGeometry height="25" width="800" x="180" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="GChwmnqYmxXAnjT2so1E-9" parent="1" style="swimlane;startSize=40;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;" value="Traducions (public/locales)" vertex="1">
+          <mxGeometry height="100" width="440" x="1480" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="GChwmnqYmxXAnjT2so1E-10" parent="GChwmnqYmxXAnjT2so1E-9" style="rounded=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=12;" value="gl/translation.json" vertex="1">
+          <mxGeometry height="40" width="160" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GChwmnqYmxXAnjT2so1E-11" parent="GChwmnqYmxXAnjT2so1E-9" style="rounded=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=12;" value="en/translation.json" vertex="1">
+          <mxGeometry height="40" width="160" x="200" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GChwmnqYmxXAnjT2so1E-15" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="1080" as="sourcePoint" />
+            <mxPoint x="120" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GChwmnqYmxXAnjT2so1E-16" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1960" y="120" as="sourcePoint" />
+            <mxPoint x="120" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GChwmnqYmxXAnjT2so1E-17" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1960" y="1080" as="sourcePoint" />
+            <mxPoint x="1960" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GChwmnqYmxXAnjT2so1E-18" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1960" y="1080" as="sourcePoint" />
+            <mxPoint x="120" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

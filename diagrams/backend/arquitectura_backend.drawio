@@ -1,0 +1,298 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="QoH4EaMHI5kLHjeRpf3A" name="Page-1">
+    <mxGraphModel dx="1885" dy="1109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="layer_controller" parent="1" style="swimlane;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;horizontal=1;" value="Capa Controller — HTTP" vertex="1">
+          <mxGeometry height="100" width="2120" x="160" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c_mapa" parent="layer_controller" style="rounded=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=12;" value="MapaController" vertex="1">
+          <mxGeometry height="40" width="140" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c_categoria" parent="layer_controller" style="rounded=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=12;" value="CategoriaController" vertex="1">
+          <mxGeometry height="40" width="150" x="540" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c_historial" parent="layer_controller" style="rounded=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=12;" value="HistorialController" vertex="1">
+          <mxGeometry height="40" width="130" x="1010" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c_perfil" parent="layer_controller" style="rounded=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=12;" value="PerfilController" vertex="1">
+          <mxGeometry height="40" width="130" x="1160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c_gardado" parent="layer_controller" style="rounded=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=12;" value="MapaGardadoController" vertex="1">
+          <mxGeometry height="40" width="160" x="180" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-1" parent="layer_controller" style="rounded=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=12;" value="MarcadorController" vertex="1">
+          <mxGeometry height="40" width="130" x="710" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c_membro" parent="layer_controller" style="rounded=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=12;" value="MapaMembroController" vertex="1">
+          <mxGeometry height="40" width="160" x="360" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c_convite" parent="layer_controller" style="rounded=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=12;" value="ConviteController" vertex="1">
+          <mxGeometry height="40" width="130" x="860" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c_auth" parent="layer_controller" style="rounded=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=12;" value="AuthController" vertex="1">
+          <mxGeometry height="40" width="140" x="1310" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-12" parent="layer_controller" style="rounded=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=12;" value="VerificacionController" vertex="1">
+          <mxGeometry height="40" width="170" x="1640" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_c_s" edge="1" parent="1" style="endArrow=block;endFill=1;startArrow=none;edgeStyle=orthogonalEdgeStyle;strokeColor=#555555;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1219.17" y="220" as="sourcePoint" />
+            <mxPoint x="1219.17" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="layer_service" parent="1" style="swimlane;startSize=40;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;horizontal=1;" value="Capa Service — Lóxica de negocio" vertex="1">
+          <mxGeometry height="100" width="2120" x="160" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="s_mapa" parent="layer_service" style="rounded=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=12;" value="MapaService" vertex="1">
+          <mxGeometry height="40" width="140" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s_marcador" parent="layer_service" style="rounded=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=12;" value="MarcadorService" vertex="1">
+          <mxGeometry height="40" width="130" x="710" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s_categoria" parent="layer_service" style="rounded=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=12;" value="CategoriaService" vertex="1">
+          <mxGeometry height="40" width="150" x="540" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s_membro" parent="layer_service" style="rounded=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=12;" value="MapaMembroService" vertex="1">
+          <mxGeometry height="40" width="160" x="360" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s_historial" parent="layer_service" style="rounded=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=12;" value="HistorialService" vertex="1">
+          <mxGeometry height="40" width="130" x="1010" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s_perfil" parent="layer_service" style="rounded=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=12;" value="PerfilService" vertex="1">
+          <mxGeometry height="40" width="130" x="1160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-6" parent="layer_service" style="rounded=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=12;" value="MapaGardadoService" vertex="1">
+          <mxGeometry height="40" width="160" x="180" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s_convite" parent="layer_service" style="rounded=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=12;" value="ConviteService" vertex="1">
+          <mxGeometry height="40" width="130" x="860" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-5" parent="layer_service" style="rounded=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=12;" value="RefreshTokenService" vertex="1">
+          <mxGeometry height="40" width="150" x="1470" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s_auth" parent="layer_service" style="rounded=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=12;" value="AuthService" vertex="1">
+          <mxGeometry height="40" width="140" x="1310" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-3" parent="layer_service" style="rounded=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=12;" value="EmailService" vertex="1">
+          <mxGeometry height="40" width="110" x="1830" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-8" parent="layer_service" style="rounded=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=12;" value="MapaAccesoService" vertex="1">
+          <mxGeometry height="40" width="140" x="1960" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_s_r" edge="1" parent="1" style="endArrow=block;endFill=1;startArrow=none;edgeStyle=orthogonalEdgeStyle;strokeColor=#555555;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1219.17" y="360" as="sourcePoint" />
+            <mxPoint x="1219.17" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="layer_repository" parent="1" style="swimlane;startSize=40;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;horizontal=1;" value="Capa Repository — Acceso a datos" vertex="1">
+          <mxGeometry height="100" width="2120" x="160" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="r_mapa" parent="layer_repository" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="MapaRepository" vertex="1">
+          <mxGeometry height="40" width="140" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r_gardado" parent="layer_repository" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="MapaGardadoRepository" vertex="1">
+          <mxGeometry height="40" width="160" x="180" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r_membro" parent="layer_repository" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="MapaMembroRepository" vertex="1">
+          <mxGeometry height="40" width="160" x="360" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r_categoria" parent="layer_repository" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="CategoriaRepository" vertex="1">
+          <mxGeometry height="40" width="150" x="540" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r_marcador" parent="layer_repository" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="MarcadorRepository" vertex="1">
+          <mxGeometry height="40" width="130" x="710" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r_convite" parent="layer_repository" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="ConviteRepository" vertex="1">
+          <mxGeometry height="40" width="130" x="860" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r_historial" parent="layer_repository" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="HistorialRepository" vertex="1">
+          <mxGeometry height="40" width="130" x="1010" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r_refresh" parent="layer_repository" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="RefreshTokenRepository" vertex="1">
+          <mxGeometry height="40" width="150" x="1470" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r_usuaria" parent="layer_repository" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="UsuariaRepository" vertex="1">
+          <mxGeometry height="40" width="130" x="1160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-9" parent="layer_repository" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="TokenVerificacionRepository" vertex="1">
+          <mxGeometry height="40" width="170" x="1640" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_r_e" edge="1" parent="1" style="endArrow=block;endFill=1;startArrow=none;edgeStyle=orthogonalEdgeStyle;strokeColor=#555555;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1219.17" y="500" as="sourcePoint" />
+            <mxPoint x="1219.17" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="layer_entity" parent="1" style="swimlane;startSize=40;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;horizontal=1;" value="Capa Entity — Modelo de datos (JPA)" vertex="1">
+          <mxGeometry height="100" width="2120" x="160" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="e_usuaria" parent="layer_entity" style="rounded=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=12;" value="Usuaria" vertex="1">
+          <mxGeometry height="40" width="130" x="1160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e_mapa" parent="layer_entity" style="rounded=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=12;" value="Mapa" vertex="1">
+          <mxGeometry height="40" width="140" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e_gardado" parent="layer_entity" style="rounded=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=12;" value="MapaGardado" vertex="1">
+          <mxGeometry height="40" width="160" x="180" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e_membro" parent="layer_entity" style="rounded=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=12;" value="MapaMembro" vertex="1">
+          <mxGeometry height="40" width="160" x="360" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e_categoria" parent="layer_entity" style="rounded=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=12;" value="Categoria" vertex="1">
+          <mxGeometry height="40" width="150" x="540" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e_marcador" parent="layer_entity" style="rounded=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=12;" value="Marcador" vertex="1">
+          <mxGeometry height="40" width="130" x="710" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e_convite" parent="layer_entity" style="rounded=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=12;" value="Convite" vertex="1">
+          <mxGeometry height="40" width="130" x="860" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e_historial" parent="layer_entity" style="rounded=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=12;" value="Historial" vertex="1">
+          <mxGeometry height="40" width="130" x="1010" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-10" parent="layer_entity" style="rounded=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=12;" value="TokenVerificacion" vertex="1">
+          <mxGeometry height="40" width="170" x="1640" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e_refresh" parent="layer_entity" style="rounded=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=12;" value="RefreshToken" vertex="1">
+          <mxGeometry height="40" width="150" x="1470" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="layer_security" parent="1" style="swimlane;startSize=40;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=13;horizontal=1;" value="Capa Security — Autenticación e filtros JWT" vertex="1">
+          <mxGeometry height="100" width="1040" x="160" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="sec_entry" parent="layer_security" style="rounded=1;fillColor=#ffffff;strokeColor=#b85450;fontSize=12;" value="AuthEntryPointJwt" vertex="1">
+          <mxGeometry height="40" width="120" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sec_filter" parent="layer_security" style="rounded=1;fillColor=#ffffff;strokeColor=#b85450;fontSize=12;" value="AuthTokenFilter" vertex="1">
+          <mxGeometry height="40" width="120" x="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sec_cors" parent="layer_security" style="rounded=1;fillColor=#ffffff;strokeColor=#b85450;fontSize=12;" value="CorsConfig" vertex="1">
+          <mxGeometry height="40" width="120" x="300" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sec_jwt" parent="layer_security" style="rounded=1;fillColor=#ffffff;strokeColor=#b85450;fontSize=12;" value="JwtUtils" vertex="1">
+          <mxGeometry height="40" width="120" x="440" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sec_uds" parent="layer_security" style="rounded=1;fillColor=#ffffff;strokeColor=#b85450;fontSize=12;" value="UserDetailsServiceImpl" vertex="1">
+          <mxGeometry height="40" width="140" x="580" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="layer_dto" parent="1" style="swimlane;startSize=40;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;horizontal=1;" value="DTOs — Transferencia de datos (Request / Response)" vertex="1">
+          <mxGeometry height="140" width="2760" x="160" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-20" parent="layer_dto" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="MapaColaboracionResponseDTO" vertex="1">
+          <mxGeometry height="35" width="200" x="460" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-21" parent="layer_dto" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="MapaMembroResponseDTO" vertex="1">
+          <mxGeometry height="35" width="200" x="240" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-22" parent="layer_dto" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="MapaMembroRequestDTO" vertex="1">
+          <mxGeometry height="35" width="200" x="240" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-23" parent="layer_dto" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="MapaResponseDTO" vertex="1">
+          <mxGeometry height="35" width="200" x="20" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-24" parent="layer_dto" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="MapaRequestDTO" vertex="1">
+          <mxGeometry height="35" width="200" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-25" parent="layer_dto" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="MarcadorRequestDTO" vertex="1">
+          <mxGeometry height="35" width="200" x="900" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-26" parent="layer_dto" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="MarcadorResponseDTO" vertex="1">
+          <mxGeometry height="35" width="200" x="900" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-28" parent="layer_dto" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="PerfilRequestDTO" vertex="1">
+          <mxGeometry height="35" width="200" x="1340" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-29" parent="layer_dto" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="PerfilResponseDTO" vertex="1">
+          <mxGeometry height="35" width="200" x="1340" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-32" parent="layer_dto" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="CategoriaRequestDTO" vertex="1">
+          <mxGeometry height="35" width="200" x="680" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-34" parent="layer_dto" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="CategoriaResponseDTO" vertex="1">
+          <mxGeometry height="35" width="200" x="680" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-35" parent="layer_dto" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="ConviteRequestDTO" vertex="1">
+          <mxGeometry height="35" width="200" x="1120" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-36" parent="layer_dto" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="ConviteResponseDTO" vertex="1">
+          <mxGeometry height="35" width="200" x="1120" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-37" parent="layer_dto" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="HistorialResponseDTO" vertex="1">
+          <mxGeometry height="35" width="200" x="1560" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-31" parent="layer_dto" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="RegisterRequestDTO" vertex="1">
+          <mxGeometry height="35" width="200" x="1780" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-39" parent="layer_dto" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="LoginRequestDTO" vertex="1">
+          <mxGeometry height="35" width="200" x="2000" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-30" parent="layer_dto" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="RefreshTokenRequestDTO" vertex="1">
+          <mxGeometry height="35" width="200" x="2220" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-38" parent="layer_dto" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=12;" value="JwtResponseDTO" vertex="1">
+          <mxGeometry height="35" width="200" x="2440" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-40" parent="layer_dto" style="text;whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important; background-color: rgb(236, 236, 236);&quot;&gt;*RequestDTO (entrada: validados con Jakarta Validation)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important; background-color: rgb(236, 236, 236);&quot;&gt;*ResponseDTO (saida: nunca entidades JPA directamente)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="400" x="2411" y="-14" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_box" parent="1" style="swimlane;startSize=40;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=13;" value="Servizos externos" vertex="1">
+          <mxGeometry height="100" width="1040" x="160" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_nominatim" parent="ext_box" style="rounded=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;" value="Nominatim (xeolocaliz. inversa)" vertex="1">
+          <mxGeometry height="35" width="240" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_mail" parent="ext_box" style="rounded=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;" value="SMTP / Mailpit (correo)" vertex="1">
+          <mxGeometry height="35" width="200" x="280" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="db_box" parent="1" style="swimlane;startSize=40;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=13;" value="Base de datos" vertex="1">
+          <mxGeometry height="100" width="1040" x="1240" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="db_h2" parent="db_box" style="rounded=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;" value="H2 in-memory (perfil dev)" vertex="1">
+          <mxGeometry height="35" width="230" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="db_pg" parent="db_box" style="rounded=1;fillColor=#ffffff;strokeColor=#666666;fontSize=12;" value="PostgreSQL (perfil prod)" vertex="1">
+          <mxGeometry height="35" width="220" x="270" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-14" parent="1" style="swimlane;startSize=40;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=13;horizontal=1;" value="Capa Config — " vertex="1">
+          <mxGeometry height="100" width="1040" x="1240" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="sec_config" parent="upSafLuoT3BpvbL6VhkZ-14" style="rounded=1;fillColor=#ffffff;strokeColor=#b85450;fontSize=12;" value="SecurityConfig" vertex="1">
+          <mxGeometry height="40" width="120" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-13" parent="upSafLuoT3BpvbL6VhkZ-14" style="rounded=1;fillColor=#ffffff;strokeColor=#b85450;fontSize=12;" value="JpaConfig" vertex="1">
+          <mxGeometry height="40" width="120" x="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sec_exc" parent="upSafLuoT3BpvbL6VhkZ-14" style="rounded=1;fillColor=#ffffff;strokeColor=#b85450;fontSize=12;" value="GlobalExceptionHandler" vertex="1">
+          <mxGeometry height="40" width="140" x="300" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-41" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="80" as="sourcePoint" />
+            <mxPoint x="2960" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-43" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2960" y="1120" as="sourcePoint" />
+            <mxPoint x="2960" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-44" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="1120" as="sourcePoint" />
+            <mxPoint x="2960" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upSafLuoT3BpvbL6VhkZ-45" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="1120" as="sourcePoint" />
+            <mxPoint x="120" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
