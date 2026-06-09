@@ -1,6 +1,9 @@
-Repositorio de documentación do proxecto Explora Map, traballo de fin de ciclo (TFG) sobre cartograf?a colaborativa con software libre.
+# Documentación ? Explora
 
-Contido do repositorio
+Repositorio de documentación do proxecto Explora, traballo de fin de grao (TFG) sobre cartografía colaborativa con software libre.
+
+## Contido do repositorio
+
 docs/
 ??? diagrams/
 ?   ??? backend/
@@ -15,34 +18,40 @@ docs/
 ?   ??? gantt/
 ?   ?   ??? diagrama-gantt.png
 ?   ??? uml/
-?       ??? clases/
-?           ??? modelo_clases.drawio
-?           ??? modelo_clases.drawio.png
-??? wireframes/          # Mockups de interface (Moqups)
-??? gu?a de estilos/     # Gu?a de estilos
-??? memoria.pdf          # Memoria técnica
+?       ??? clases_entidades.drawio
+?       ??? clases_entidades.png
+??? memoria/
+?   ??? memoria.odt
+?   ??? memoria.pdf
+??? mockups/
+?   ??? Detalle do mapa.pdf
+?   ??? Mapa.pdf
+?   ??? Os meus mapas.pdf
+??? presentacion/
+?   ??? presentacion.odp
+?   ??? presentacion.pdf
 ??? README.md
 
-Sobre o proxecto
+## Sobre o proxecto
 
-Explora Map é unha aplicación web de mapas colaborativos constru?da ?ntegramente sobre tecnolox?as libres. Permite crear e xestionar mapas personalizados, p?blicos ou privados, con marcadores, categor?as visuais, historial de cambios e un sistema de colaboración por roles e convites.
+Explora Map é unha aplicación web de mapas colaborativos construída integramente sobre tecnoloxías libres. Permite crear e xestionar mapas personalizados, públicos ou privados, con marcadores, categorías visuais, historial de cambios e un sistema de colaboración por roles e convites.
 
-A aplicación est? despregada en https://explora-mapa.eu sobre infraestrutura europea (Hetzner, Alema?a) e adopta un enfoque de privacy by design: sen rastrexadores externos, sen cookies de terceiros e con minimización de datos persoais.
+A aplicación está despregada en https://explora-mapa.eu sobre infraestrutura europea (Hetzner, Alemaña) e adopta un enfoque de privacy by design: sen rastrexadores externos, sen cookies de terceiros e con minimización de datos persoais.
 
-Diagramas inclu?dos
+## Diagramas incluídos
 
-- Diagrama de descrición da arquitectura do backend. Estrutura: Controller ? Service ? Repository ? BD.
-- Diagrama de descrición da arquitectura do frontend. Estrutura: p?xinas, compo?entes, stores e servizos
-- Diagrama ENtidade-Relación Conceptual coa notación de Chen. 
-- Diagrama UML de clases do dominio.
-- Diagrama de Gantt. Planificación en sprints do proxecto
+- **Arquitectura do backend.** Estrutura en capas: Controller, Service, Repository e base de datos.
+- **Arquitectura do frontend.** Estrutura de páxinas, compoñentes, stores e servizos.
+- **Diagrama Entidade-Relación conceptual** con notación Chen.
+- **Diagrama UML de clases** do dominio.
+- **Diagrama de Gantt.** Planificación en sprints do proxecto.
 
-Repositorios relacionados
+## Repositorios relacionados
 
-- Frontend: SPA React + Leaflet
-- Backend: API REST Spring Boot
-- Deploy: configuración de Docker e intraestrutura
+- [Frontend](https://github.com/...) ? SPA React + Leaflet
+- [Backend](https://github.com/...) ? API REST Spring Boot
+- [Deploy](https://github.com/...) ? Configuración Docker e infraestrutura
 
-Licenza
+## Licenza
 
-Este proxecto est? publicado baixo licenza MIT License. Consulta o ficheiro LICENSE para m?is información.
+Este proxecto está publicado baixo licenza MIT. Consulta o ficheiro [LICENSE](./LICENSE) para máis información.
